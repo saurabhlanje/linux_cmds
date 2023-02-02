@@ -91,4 +91,8 @@ Syntax
  ```bash
  kill SIGNAL PID
   ```
+ ## get pid of process to be run
+  ```bash
+ rosrun move_bb8_pkg test_process.py &
+  ```
 
