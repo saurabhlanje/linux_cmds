@@ -100,4 +100,21 @@ Syntax
  ```bash
  cat [filename-whose-contents-is-to-be-copied] > [destination-filename]
  ```
+## Print the file with line number
+ ```bash
+ nl geekfile.txt
+ ```
+ 
+ ## Display content of file in page by page manner
+  ```bash
+ more -d sample.txt
+  ```
+ ```bash
+ more [-options] [-num] [+/pattern] [+linenum] [file_name]
+  ```
 
+[-options]: any option that you want to use in order to change the way the file is displayed. Choose any one from the followings: (-d, -l, -f, -p, -c, -s, -u)
+[-num]: type the number of lines that you want to display per screen.
+[+/pattern]: replace the pattern with any string that you want to find in the text file.
+[+linenum]: use the line number from where you want to start displaying the text content.
+[file_name]: name of the file containing the text that you want to display on the screen.
