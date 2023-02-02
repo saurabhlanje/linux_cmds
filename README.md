@@ -71,11 +71,12 @@ fi
   
   
  ##If condition in bash format
-  
+   ```bash
   if CONDITION
 then
   COMMANDS
 fi
+  ```
   
   The .bashrc file is a special bash script, which Linux executes whenever a new Shell session is initialized.
   
@@ -86,5 +87,8 @@ fi
  
  ![image](https://user-images.githubusercontent.com/40294372/216338864-150fab1b-e1ee-4321-a955-ec9a1251f340.png)
  
-Syntax kill SIGNAL PID
+Syntax 
+ ```bash
+ kill SIGNAL PID
+  ```
 
