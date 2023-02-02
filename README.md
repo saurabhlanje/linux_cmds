@@ -25,7 +25,7 @@
   24) htop & top task manager for linux
   25) ps faux similar to htop
   
-  Arguments can be passed to the shell script example is as follows
+##  Arguments can be passed to the shell script example is as follows
 Bash script starts here>>>>>>  
 #!/bin/bash
 
@@ -69,7 +69,7 @@ fi
   
   
   
- If condition in bash format
+ ##If condition in bash format
   
   if CONDITION
 then
@@ -81,7 +81,7 @@ fi
   In simple terms, environment variables are set when you open a new shell session. at any time if you change any of the variable values, the shell has no way of picking that change. The export command, on the other hand, provides the ability to update the current shell session about the change you made to the exported variable. You don’t have to wait until new shell session to use the value of the variable you changed.
  
  
- To kill some process
+## To kill some process
  
  ![image](https://user-images.githubusercontent.com/40294372/216338864-150fab1b-e1ee-4321-a955-ec9a1251f340.png)
  
