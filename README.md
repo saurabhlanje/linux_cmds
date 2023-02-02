@@ -27,6 +27,7 @@
   
 ##  Arguments can be passed to the shell script example is as follows
 Bash script starts here>>>>>>  
+ ```bash
 #!/bin/bash
 
 ARG1=$1
@@ -61,7 +62,7 @@ angular:
   y: 0.0
   z: 0.0"
 fi
-  
+   ```
  <<<<Bash script ends here
   
    You can access an argument inside a script using the variables $1, $2, $3, and so on. The variable $1 refers to the first argument, $2 to the second argument, and $3 to the third argument. So, in this case, since we only have 1 argument, we access it using the variable $1.
