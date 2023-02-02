@@ -95,4 +95,9 @@ Syntax
   ```bash
  rosrun move_bb8_pkg test_process.py &
   ```
+ 
+ ## Concatenate data within files and add it to some file
+ ```bash
+ cat [filename-whose-contents-is-to-be-copied] > [destination-filename]
+ ```
 
