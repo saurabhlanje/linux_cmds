@@ -82,6 +82,8 @@ fi
  
  
  To kill some process
+ 
  ![image](https://user-images.githubusercontent.com/40294372/216338864-150fab1b-e1ee-4321-a955-ec9a1251f340.png)
+ 
 Syntax kill SIGNAL PID
 
