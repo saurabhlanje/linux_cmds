@@ -118,3 +118,8 @@ Syntax
 [+/pattern]: replace the pattern with any string that you want to find in the text file.
 [+linenum]: use the line number from where you want to start displaying the text content.
 [file_name]: name of the file containing the text that you want to display on the screen.
+
+ ## To execute shell script in same terminal
+   ```
+source shell.sh
+  ```
